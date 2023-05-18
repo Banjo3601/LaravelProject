@@ -1,0 +1,342 @@
+body{
+    background-color: #EBF2FA;
+}
+
+.cadreListeLivre{
+    width: 45%;
+    margin: 20px auto;
+    background-color: #A4BD01;
+    border: 2px solid #679436;
+    border-radius: 20px;
+    padding-bottom: 1%;
+}
+
+.cadreListeCategory{
+    width: 45%;
+    margin: 20px auto;
+    background-color: #427AA1;
+    border: 2px solid #06668C;
+    border-radius: 20px;
+    padding-bottom: 1%;
+}
+
+.categoryTitle{
+    text-align: center;
+    color: #427AA1;
+    padding-bottom: 2%;
+    font-family: "IBM Plex Sans", sans-serif;
+    clear: left;
+}
+
+.bookTitle{
+    text-align: center;
+    color: #679436;
+    padding-bottom: 2%;
+    font-family: "IBM Plex Sans", sans-serif;
+    clear: left;
+}
+
+h2, h3{
+    color: #333533;
+    text-align: center;
+}
+
+h2{
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.optionCategory{
+    font-family: "Devant Pro", sans-serif;
+    margin-right: 2%;
+    display: inline;
+    float: right;
+}
+
+.optionCategory a {
+    display: inline-block;
+    background-color: #6379B1;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.optionCategory a:hover {
+    background-color: #333533;
+}
+
+.optionBook{
+    font-family: "Devant Pro", sans-serif;
+    margin-right: 2%;
+    display: inline;
+    float: right;
+}
+
+.optionBook a {
+    display: inline-block;
+    background-color: #9ADB3D;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.optionBook a:hover {
+    background-color: #333533;
+}
+
+.titreLivreListe{
+    margin-left: 2%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container li {
+    margin: 0 10%;
+}
+
+.alert-success{
+    text-align: center;
+    font-family: "Devant Pro", sans-serif;
+    color: #333533;
+}
+
+.lienPageNewBook{
+    margin-right: 2%;
+    font-family: "IBM Plex Sans", sans-serif;
+    display: inline;
+    float: right;
+}
+
+.lienPageNewBook a {
+    display: inline-block;
+    background-color: #A4BD01;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.lienPageNewBook a:hover {
+    background-color: #45a049;
+}
+
+.lienPageCategory{
+    margin-left: 2%;
+    font-family: "IBM Plex Sans", sans-serif;
+    display: inline;
+    float: left;
+}
+
+.lienPageCategory a {
+    display: inline-block;
+    background-color: #A4BD01;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.lienPageCategory a:hover {
+    background-color: #45a049;
+}
+
+.lienPageNewCategory{
+    margin-right: 2%;
+    font-family: "IBM Plex Sans", sans-serif;
+    display: inline;
+    float: right;
+}
+
+.lienPageNewCategory a {
+    display: inline-block;
+    background-color: #427AA1;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.lienPageNewCategory a:hover{
+    background-color: #06668C;
+}
+
+.lienPageBook{
+    margin-left: 2%;
+    font-family: "IBM Plex Sans", sans-serif;
+    display: inline;
+    float: left;
+}
+
+.lienPageBook a{
+    display: inline-block;
+    background-color: #427AA1;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.lienPageBook a:hover{
+    background-color: #06668C;
+}
+
+.formRecherche {
+    display: inline-block;
+    background-color: #EBF2FA;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.boutonRecherche{
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: #A4BD01;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.boutonRecherche:hover{
+    background-color: #45a049;
+}
+
+.inputRecherche {
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: #EBF2FA;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.separation {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.separationDetailLivre{
+    border: none;
+    border-top: 1px solid #679436;
+    margin: 20px 0;
+}
+
+.containerNewBook {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.retourPageBook {
+    margin: 0;
+}
+
+.forNewBookPage {
+    margin: 0;
+    text-align: center;
+}
+
+.lienPageCategory{
+    margin-left: 2%;
+    font-family: "IBM Plex Sans", sans-serif;
+    display: inline;
+    float: left;
+}
+
+.lienPageCategory a {
+    display: inline-block;
+    background-color: #A4BD01;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.lienPageCategory a:hover {
+    background-color: #45a049;
+}
+
+.inline-elements {
+    display: inline-block;
+}
+
+.grid {
+    margin-left: 35%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.grid-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.inline-elements {
+    padding-top: 10px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.lienPageRetour{
+    float: left;
+    margin-left: 2%;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.lienPageRetour a {
+    display: inline-block;
+    background-color: #A4BD01;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.lienPageRetour a:hover {
+    background-color: #45a049;
+}
+
+.boutonValidationCategory{
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: #427AA1;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.boutonValidationCategory:hover{
+    background-color: #06668C;
+}
+
+
+
+
+
